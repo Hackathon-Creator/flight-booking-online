@@ -1,0 +1,31 @@
+<div class="wrapper fadeInDown" >
+    <div id="formContent" style="
+    max-width: 243%;
+    width: 45%;
+    background-color: #6cafd2;
+">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+       <h1>Flight Booking System</h1>
+      </div>
+  
+      <!-- Login Form -->
+      <form [formGroup]="dynamicForm" (submit)="login()">
+        <input type="text" id="username" class="fadeIn second" formControlName="username" name="login" placeholder="Username">
+        <input type="text" id="password" class="fadeIn third" name="login"formControlName="password" placeholder="Password">
+        <input type="submit"    (click)="login()" class="fadeIn fourth" value="Log In">
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover"  (click)="sign()"  ><strong>Sign up</strong> </a>
+      </div>
+
+      
+      <div id="formFooter">
+        <strong>{{this.errormsg}}</strong>
+      </div>
+    </div>
+  </div>

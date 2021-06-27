@@ -1,0 +1,18 @@
+[  
+    {  
+      "id": 1,  
+      "name": "Air India",  
+      "distance": "1500Km",  
+      "amount": "5000"  ,
+      "fromcity":"Mumbai",
+      "tocity":"New Delhi"
+    },
+    {  
+        "id": 2,  
+        "name": "Indigo",  
+        "distance": "1200Km",  
+        "amount": "4000"  ,
+        "fromcity":"Mumbai",
+        "tocity":"Bangalore"
+      }
+  ]  
