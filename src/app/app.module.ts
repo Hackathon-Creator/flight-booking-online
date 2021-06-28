@@ -13,6 +13,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { MatDatepickerModule} from '@angular/material/datepicker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BookingComponent } from './booking/booking.component';
+import { PassengerComponent } from './passenger/passenger.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { BookingComponent } from './booking/booking.component';
     CommanComponent,
     SignupComponent,
     LoginComponent,
-    BookingComponent
+    BookingComponent,
+    PassengerComponent
   ],
   imports: [
     BrowserModule,

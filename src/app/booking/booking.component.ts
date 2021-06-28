@@ -65,5 +65,7 @@ export class BookingComponent implements OnInit {
     this.isBooked=true;
     this.bookedmsg="Booked your filght.."
 
+    this.router.navigate(['passenger']);
+
   }
 }
